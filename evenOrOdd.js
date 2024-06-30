@@ -3,13 +3,12 @@
 
 
 function evenOrOdd(number) {
-    str = "";
     if (number % 2 == 0) {
-        str += `Even`;
-        return str;
+        return "Even";
     }
     else {
-        str += `Odd`;
-        return str;
+        return "Odd";
     }
 }
+
+// const evenOrOdd = (number) => number % 2 ? "Odd" : 'Even'; 
