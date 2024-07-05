@@ -11,7 +11,7 @@
 // ]
 
 function countSheeps(sheep) {
-    return sheep.filter(Boolean).length;
+  return sheep.filter(Boolean).length;
 }
 
 // Boolean: In this case, the provided function is Boolean. When used in this context, Boolean will convert each element of the sheep array to a boolean value (either true or false).

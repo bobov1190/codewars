@@ -2,9 +2,8 @@
 
 // Note: Only valid inputs will be given.
 
-
 function booleanToString(b) {
-    return String(b);
+  return String(b);
 }
 
 // b.toString() alternative version
